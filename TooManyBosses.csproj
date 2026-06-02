@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>TooManyBosses</AssemblyName>
+    <Description>My first plugin</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <Reference Include="Assembly-Csharp">
+      <PathHint>C:\Users\JKL\Desktop\SNBmod\TooManyBosses\lib\Assembly-CSharp.dll</PathHint>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <PathHint>C:\Users\JKL\Desktop\SNBmod\TooManyBosses\lib\UnityEngine.CoreModule.dll</PathHint>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <PathHint>C:\Users\JKL\Desktop\SNBmod\TooManyBosses\lib\Il2Cppmscorlib.dll</PathHint>
+    </Reference>
+  </ItemGroup>
+</Project>

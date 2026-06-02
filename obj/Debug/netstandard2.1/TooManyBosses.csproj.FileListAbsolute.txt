@@ -1,0 +1,15 @@
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\TooManyBosses.deps.json
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\TooManyBosses.dll
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\TooManyBosses.pdb
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\Il2Cppmscorlib.dll
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.csproj.AssemblyReference.cache
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\PluginInfo.cs
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.AssemblyInfoInputs.cache
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.AssemblyInfo.cs
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.csproj.CoreCompileInputs.cache
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.csproj.CopyComplete
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.dll
+C:\Users\JKL\Desktop\SNBmod\TooManyBosses\obj\Debug\netstandard2.1\TooManyBosses.pdb
