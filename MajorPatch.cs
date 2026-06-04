@@ -1,5 +1,4 @@
 using HarmonyLib;
-using Sannabi._03.Scripts.Jaeyun.Boss;
 using UnityEngine;
 
 namespace TooManyBosses.Patches
@@ -9,9 +8,9 @@ namespace TooManyBosses.Patches
         public static int majorNumber = 3;
         public static bool isInstitated = false;
 
-        [HarmonyPatch(typeof(Major), "OnEnable")]
+        [HarmonyPatch(typeof(Major), "Start")]
         [HarmonyPrefix]
-        static void Major_Prefix()
+        static void Major_Prefix(ref Major ___instance)
         {
             GameObject originalMajor = GameObject.Find("Pref_Major_Bundle");
             if (originalMajor == null)
@@ -20,6 +19,7 @@ namespace TooManyBosses.Patches
             }
             else if (!isInstitated)
             {
+                Plugin.Log.LogInfo("Major maxHealth: " + ___instance.maxHealth);
                 isInstitated = true;
                 GameObject bundle = new GameObject("Major_Bundle");
                 for (int i = 2; i <= majorNumber; i++)
@@ -36,6 +36,9 @@ namespace TooManyBosses.Patches
                         gameobject.transform.parent = bundle.transform;
                     }
                 }
+                ___instance.maxHealth *= majorNumber;
+                Plugin.Log.LogInfo("Current Major State: " + ___instance.nowState);
+                Plugin.Log.LogInfo("All Major maxHealth: " + ___instance.maxHealth);
             }
         }
     }

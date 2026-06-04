@@ -4,6 +4,6 @@ namespace TooManyBosses
     {
         public const string PLUGIN_GUID = "TooManyBosses";
         public const string PLUGIN_NAME = "TooManyBosses";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "0.0.7";
     }
 }

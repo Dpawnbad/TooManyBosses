@@ -6,7 +6,7 @@ using TooManyBosses.Patches;
 
 namespace TooManyBosses
 {
-    [BepInPlugin("mod.sanabi.tomb", "TooManyBosses", "0.0.4")]
+    [BepInPlugin("mod.sanabi.tomb", "TooManyBosses", "0.0.7")]
     public class Plugin : BasePlugin
     {
         internal static new ManualLogSource Log;
